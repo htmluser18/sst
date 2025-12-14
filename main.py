@@ -31,6 +31,7 @@ def display_report(students):
     low=f_lower(students)
     print(f" class average : {avg:.2f}"
           f"\n topper:{top["name"]} with {top["marks"]} marks"
+          f"\n lowest:{low["name"]} with {low["marks"]} marks"
           f"\n all students record :")
     
     for s in students:
